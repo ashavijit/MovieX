@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package searchPackage;
+
+service SearchService {
+  rpc Search(SearchMovieRequest) returns (SearchMovieResponse);
+}
+
+message SearchMovieRequest {
+  string movieName = 1;
+}
+
+message B64Image {
+  bytes b64image = 1;
+  int32 width = 2;
+  int32 height = 3;
+}
+
+message Movie {
+  string title = 1;
+  B64Image cardImg = 2;
+}
+
+message SearchMovieResponse {
+  bool exist = 1;
+  repeated Movie movie = 2;
+}

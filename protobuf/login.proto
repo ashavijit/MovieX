@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package loginPackage;
+
+service LoginService {
+  rpc Login(LoginRequest) returns (LoginResponse);
+}
+
+
+message LoginRequest {
+LoginForm form = 1;
+}
+
+message Reservation {
+  string movie = 1;
+  string theatre = 2;
+  string time = 3;
+}
+
+
+message LoginResponse{
+bool success = 1;
+string message = 2;
+string name = 3;
+string email = 4;
+repeated Reservation reservations = 5;
+}
+
+message LoginForm{
+string email = 1;
+string password = 2;
+}
+

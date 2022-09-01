@@ -1,0 +1,404 @@
+{
+    "movies": {
+        "1" :{
+            "backgroundImg": "../frontend/public/images/Inside_out_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Inside_out_cardImg.jpeg",
+            "description": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+            "subTitle": "2015 • 1h 35m • Coming of Age, Family, Animation",
+            "title": "Inside Out",
+            "titleImg": "../frontend/public/images/Inside_out_titleImg.png",
+            "type": "playing",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "2" :{
+            "backgroundImg": "../frontend/public/images/A_taile_of_two_kitties_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/A_taile_of_two_kitties_cardImg.jpeg",
+            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
+            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
+            "title": "A tail of two kitties",
+            "titleImg": "../frontend/public/images/A_taile_of_two_kitties_titleImg.png",
+            "type": "coming",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "3" :{
+            "backgroundImg": "../frontend/public/images/Bao_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Bao_cardImg.jpeg",
+            "description": "A Chinese mom who's sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.",
+            "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
+            "title": "Bao",
+            "titleImg": "../frontend/public/images/Bao_titleImg.png",
+            "type": "playing",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "4" :{
+            "backgroundImg": "../frontend/public/images/Tangled_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Tangled_cardImg.jpeg",
+            "description": "When the kingdom's most wanted bandit is taken hostage by Rapunzel — a teen with 70 feet of golden hair who's looking to escape the tower where she's been locked away for years — the unlikely duo sets off on a hair-raising escapade.",
+            "subTitle": "2010 • 1h 40m • Family, Fantasy, Animation, Action-Adventure, Musical",
+            "title": "Tangled",
+            "titleImg": "../frontend/public/images/Tangled_titleImg.png",
+            "type": "trending",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "5" :{
+            "backgroundImg": "../frontend/public/images/Soul_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Soul_cardImg.jpeg",
+            "description": "Jamie Foxx leads an all-star cast in this hilarious, heart-filled adventure. Pixar’s 'Soul' introduces Joe, who lands the gig of his life at the best jazz club in town. But one misstep lands Joe in a fantastical place: The Great Before. There, he teams up with soul 22 (Tina Fey), and together they find the answers to some of life’s biggest questions.",
+            "subTitle": "2020 • 1h 49m • Family, Comedy, Fantasy, Animation, Music",
+            "title": "Soul",
+            "titleImg": "../frontend/public/images/Soul_titleImg.png",
+            "type": "original",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "6" :{
+            "backgroundImg": "../frontend/public/images/Moana_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Moana_cardImg.jpeg",
+            "description": "Moana sets sail on a daring mission to save her people. Along the way, she meets the mighty demigod Maui–together they cross the ocean on a fun-filled, action-packed voyage from Walt Disney Animation Studios.",
+            "subTitle": "2016 • 1h 47m • Family, Fantasy, Animation, Action-Adventure, Musical",
+            "title": "Moana",
+            "titleImg": "../frontend/public/images/Moana_titleImg.png",
+            "type": "trending",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "7" :{
+            "backgroundImg": "../frontend/public/images/Incredibles_2_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Incredibles_2_cardImg.jpeg",
+            "description": "While Helen is called on to lead a campaign to bring back the Supers, Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and Jack-Jack, whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But with Frozone by their side, the Parrs can take on anything.",
+            "subTitle": "2018 • 1h 58m • Science Fiction, Family, Animation, Action-Adventure",
+            "title": "Incredibles 2",
+            "titleImg": "../frontend/public/images/Incredibles_2_titleImg.png",
+            "type": "playing",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "8" :{
+            "backgroundImg": "../frontend/public/images/Assembled_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Assembled_cardImg.jpeg",
+            "description": "ASSEMBLED is an immersive series of documentary-style specials examining the creation of Marvel Studios’ thrilling new shows and theatrical releases.",
+            "subTitle": "2021 • 1 Season • Docuseries, Anthology",
+            "title": "Assembled",
+            "titleImg": "../frontend/public/images/Assembled_titleImg.png",
+            "type": "original",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "9" :{
+            "backgroundImg": "../frontend/public/images/Burrow_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Burrow_cardImg.jpeg",
+            "description": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she’s doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help.",
+            "subTitle": "2020 • 6m • Family, Animation",
+            "title": "Burrow",
+            "titleImg": "../frontend/public/images/Burrow_titleImg.png",
+            "type": "original",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "10" :{
+            "backgroundImg": "../frontend/public/images/The_Simpsons_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/The_Simpsons_cardImg.jpeg",
+            "description": "This animated comedy focuses on the eponymous family in the town of Springfield. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie.",
+            "subTitle": "1989 - 2019 • 31 Seasons • Comedy, Animation",
+            "title": "The Simpsons",
+            "titleImg": "../frontend/public/images/The_Simpsons_titleImg.png",
+            "type": "trending",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "11" :{
+            "backgroundImg": "../frontend/public/images/Legends_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Legends_cardImg.jpeg",
+            "description": "Marvel Studios LEGENDS traces Wanda Maximoff’s evolution from an adversary of The Avengers to a powerful ally, and highlights one special relationship destined to shape her future in unexpected ways…",
+            "subTitle": "2021 • 1 Season • Science Fiction, Fantasy, Action-Adventure",
+            "title": "Legends",
+            "titleImg": "../frontend/public/images/Legends_titleImg.png",
+            "type": "original",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "12" :{
+            "backgroundImg": "../frontend/public/images/Raya_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Raya_cardImg.jpeg",
+            "description": "Watch with Premier Access at the same time it's in open theatres and before it's available to all Disney+ subscribers on June 4, 2021.",
+            "subTitle": "2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure",
+            "title": "Raya",
+            "titleImg": "../frontend/public/images/Raya_titleImg.png",
+            "type": "coming",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "13" :{
+            "backgroundImg": "../frontend/public/images/Auntie_EDNA_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Auntie_EDNA_cardImg.jpeg",
+            "description": "When Bob Parr visits designer Edna Mode for help with his high-energy toddler, she pulls an all-nighter designing a supersuit to harness Jack-Jack’s seemingly limitless powers.",
+            "subTitle": "2018 • 7m • Family, Comedy, Animation",
+            "title": "Auntie EDNA",
+            "titleImg": "../frontend/public/images/Auntie_EDNA_titleImg.png",
+            "type": "playing",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "14" :{
+            "backgroundImg": "../frontend/public/images/Mickey_mouse_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/Mickey_mouse_cardImg.jpeg",
+            "description": "Mickey entertains preschoolers by inviting them to join him and his friends for a date at the Clubhouse. Using early math learning and problem solving skills, he leads kids on an interactive adventure of learning and fun.",
+            "subTitle": "2006 - 2013 • 5 Seasons • Kids, Animation",
+            "title": "Mickey mouse",
+            "titleImg": "../frontend/public/images/Mickey_mouse_titleImg.png",
+            "type": "trending",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "15" :{
+            "backgroundImg": "../frontend/public/images/The_falcon_and_the_winter_soldier_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/The_falcon_and_the_winter_soldier_cardImg.jpeg",
+            "description": "Marvel Studios' “The Falcon and The Winter Soldier” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience.",
+            "subTitle": "2021 • 1 Season • Science Fiction, Action-Adventure, Buddy",
+            "title": "The falcon and the winter soldier",
+            "titleImg": "../frontend/public/images/The_falcon_and_the_winter_soldier_titleImg.png",
+            "type": "coming",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        },
+        "16" :{
+            "backgroundImg": "../frontend/public/images/My_music_story_backgroundImg.jpeg",
+            "cardImg": "../frontend/public/images/My_music_story_cardImg.jpeg",
+            "description": "J-Pop band Perfume is featured in this original music and documentary series 'Disney’s My Music Story.' The show features Perfume's life stories, passion for music, Disney memories, and more.",
+            "subTitle": "2019 • 53m • Documentary, Biographical, Music",
+            "title": "My music story",
+            "titleImg": "../frontend/public/images/My_music_story_titleImg.png",
+            "type": "coming",
+            "theatre": [
+                {
+                    "name": "Cornell Theatre Arts",
+                    "schedule": [
+                                    {"time": "9:30 AM", "remainTicket": "30"},
+                                    {"time": "2:30 PM", "remainTicket": "30"}
+                                ]
+                },
+                {
+                    "name": "State Theatre of Ithaca",
+                    "schedule": [
+                                    {"time": "3:30 PM", "remainTicket": "50"},
+                                    {"time": "9:30 PM", "remainTicket": "50"}
+                                ]
+                }
+            ]
+        }
+    }
+}

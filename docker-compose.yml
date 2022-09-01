@@ -1,0 +1,99 @@
+version: "3.9"
+services:
+  mongodb-movie:
+    container_name: movie_db
+    image: mongo
+    ports:
+      - "27017:27017"
+    restart: always
+    networks:
+      - envoymesh
+    volumes:
+      - ./data/movie:/data/db
+
+  mongodb-login:
+    container_name: login_db
+    image: mongo
+    ports:
+      - "27018:27017"
+    restart: always
+    networks:
+      - envoymesh
+    volumes:
+      - ./data/login:/data/db
+
+  proxy:
+    image: envoyproxy/envoy:v1.20.0
+    environment:
+      NODE_ENV: development
+      loglevel: debug
+    ports:
+      - 8080:8080
+      - 8081:8081
+      - 8082:8082
+      - 8083:8083
+      - 8084:8084
+      - 9901:9901
+    networks:
+      - envoymesh
+    volumes:
+      - ./envoy/envoy.yaml:/etc/envoy/envoy.yaml
+    restart: always
+      
+  login:
+    container_name: login
+    build: ./login
+    ports:
+      - "9095:9095"
+    networks:
+      - envoymesh
+    restart: always
+
+  movie:
+    container_name: movie
+    build: ./movie
+    ports:
+      - "9096:9096"
+    networks:
+      - envoymesh
+    restart: always
+
+  signup:
+    container_name: signup
+    build: ./signup
+    ports:
+      - "9097:9097"
+    networks:
+      - envoymesh
+    restart: always
+
+  search:
+    container_name: search
+    build: ./search
+    ports:
+      - "9098:9098"
+    networks:
+      - envoymesh
+    restart: always
+
+  update_user:
+    container_name: update_user
+    build: ./updateUser
+    ports:
+      - "9099:9099"
+    networks:
+      - envoymesh
+    restart: always
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend/src:/etc/frontend/src
+    ports:
+      - "3001:3001"
+    networks:
+      - envoymesh
+    restart: always
+
+networks:
+  envoymesh: {}

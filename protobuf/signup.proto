@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package signupPackage;
+
+service SignupService {
+  rpc Signup(SignupRequest) returns (SignupResponse);
+}
+
+message SignupRequest {
+  SignupForm form = 1;
+}
+
+message SignupResponse {
+bool success = 1;
+string message = 2;
+}
+
+message Reservation{
+string movie = 1;
+string theater = 2;
+string date = 3;
+string time = 4;
+int32 count = 5;
+}
+
+message SignupForm{
+string name = 1;
+string email = 2;
+string password1 = 3;
+string password2 = 4;
+}

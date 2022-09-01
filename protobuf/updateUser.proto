@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package updateUserPackage;
+
+service updateUserService{
+  rpc UpdateUserReservation(UpdateUserReservationRequest) returns (UpdateUserReservationResponse);
+}
+
+message UpdateUserReservationRequest {
+  string userEmail = 1;
+  string newReservationList = 2;
+}
+
+message UpdateUserReservationResponse {
+  bool status = 1;
+  string currReservationList = 2;
+}

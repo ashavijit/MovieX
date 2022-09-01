@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package formPackage;
+
+service FormService {
+  rpc Echo(FormRequest) returns (FormResponse);
+  rpc Signup(SignupRequest) returns (SignupResponse);
+  rpc Login(LoginRequest) returns (LoginResponse);
+}
+
+message FormRequest{
+string email = 1;
+string password = 2;
+}
+
+message FormResponse {
+string message = 1;
+}
+
+message SignupRequest {
+  SignupForm form = 1;
+}
+
+message SignupResponse {
+bool success = 1;
+string message = 2;
+}
+
+message LoginRequest {
+LoginForm form = 1;
+}
+
+message Reservation{
+string movie = 1;
+string theater = 2;
+string date = 3;
+string time = 4;
+int32 count = 5;
+}
+
+
+message LoginResponse{
+bool success = 1;
+string message = 2;
+string name = 3;
+string email = 4;
+repeated Reservation reservations = 5;
+}
+
+message LoginForm{
+string email = 1;
+string password = 2;
+}
+
+message SignupForm{
+string name = 1;
+string email = 2;
+string password1 = 3;
+string password2 = 4;
+}

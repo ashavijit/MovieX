@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package moviePackage;
+
+service MovieService {
+  rpc GetAll(Empty) returns (MovieCardResponse);
+  rpc GetPlaying(Empty) returns (MovieCardResponse);
+  rpc GetComing(Empty) returns (MovieCardResponse);
+  rpc GetAMovie(MovieRequest) returns (MovieBgResponse);
+  rpc UpdateReservedMovieInfo(UpdateMovieInfoRequest) returns (UpdateMovieInfoResponse);
+}
+
+message Empty{}
+
+message UpdateMovieInfoRequest {
+  string movieName = 1;
+  string newScreeningInfo = 2;
+}
+
+message UpdateMovieInfoResponse {
+  bool status = 1;
+}
+
+message MovieRequest{
+  string movieName = 1;
+}
+
+message MovieCardResponse {
+  repeated MovieCard movies = 1;
+}
+
+message B64Image {
+  bytes b64image = 1;
+  int32 width = 2;
+  int32 height = 3;
+}
+
+message MovieCard {
+  string title = 1;
+  B64Image cardImg = 2;
+}
+
+message MovieBg {
+  string title = 1;
+  string description = 2;
+  string subTitle = 3;
+  B64Image titleImg = 4;
+  B64Image backgroundImg = 5;
+  string theatre = 6;
+  string movieType = 7;
+}
+
+message MovieBgResponse{
+  repeated MovieBg movies = 1;
+}
