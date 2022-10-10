@@ -150,6 +150,33 @@ git push -u origin <your_branch_name>
 
 **21.**  After this, the maintainers will review the PR and will merge it if it helps move the project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase.
 
+## Folder Structure
+<pre>
+.
+└── <a href="https://github.com/ashavijit/MovieX">MovieX/</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/envoy">Envoy/</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend">Frontend/</a>
+    │   ├── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/public">public/</a>
+    │   │   └── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/public/images">images</a>
+    │   └── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src">src/</a>
+    │       ├── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/app">app</a>
+    │       ├── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/components">components/</a>
+    │       │   └── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/components/proto">proto</a>
+    │       └── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/features">features/</a>
+    │           ├── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/features/movie">movie</a>
+    │           └── <a href="https://github.com/ashavijit/MovieX/tree/main/frontend/src/features/user">user</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/login">Login</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/movie">Movie/</a>
+    │   └── <a href="https://github.com/ashavijit/MovieX/tree/main/movie/MovieData">MovieData/</a>
+    │       ├── <a href="https://github.com/ashavijit/MovieX/tree/main/movie/MovieData/public">public/</a>
+    │       │   └── <a href="https://github.com/ashavijit/MovieX/tree/main/movie/MovieData/public/images">images</a>
+    │       └── <a href="https://github.com/ashavijit/MovieX/tree/main/movie/MovieData/src">src</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/protobuf">Protobuf</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/screenshots">Screenshots</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/search">Search</a>
+    ├── <a href="https://github.com/ashavijit/MovieX/tree/main/signup">Signup</a>
+    └── <a href="https://github.com/ashavijit/MovieX/tree/main/updateUser">UpdateUser</a>
+</pre>
 
 ## License
 
