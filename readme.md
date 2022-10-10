@@ -5,12 +5,21 @@
 MovieX is a web based application that allows user to book tickets for newly released movies in theater. User can search for any movie using the search bar provided and according to their preference they can book tickets for the Movie.
 
 ## Technologies Used
-* **Front-End :** *ReactJs* 
+* **Front-End :** *ReactJs*
+* **Back-End :** *Python3*
+* **Backend database :** *MongoDB*
+* **API :** *Fast API*
 * **Load-balancing :** *Envoy proxy* 
 * **Microservices communication :** *gRPC* 
 * **Microservices container :** *Docker* 
-* **Backend database :** *MongoDB*
-* **Pakage Manager** *Node Package Manager (npm) & Preferred Installer Program (pip)*  
+
+![](https://img.shields.io/badge/ReactJs-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![](https://img.shields.io/badge/Python3-38B2AC?style=for-the-badge&logo=python)
+![](https://img.shields.io/badge/MongoDB-fa1505?style=for-the-badge&logo=mongodb&logoColor=#fa1505)
+![](https://img.shields.io/badge/Fast%20API-faea05?style=for-the-badge&logo=fastapi&logoColor=red)
+![](https://img.shields.io/badge/Envoy%20Proxy-de92e8?style=for-the-badge)
+![](https://img.shields.io/badge/Docker-097049?style=for-the-badge&logo=docker)
+![](https://img.shields.io/badge/gRPC-9bed93?style=for-the-badge)
 
 ## Features
 
