@@ -1,5 +1,10 @@
-![MovieX](https://socialify.git.ci/ashavijit/MovieX/image?font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
-# MovieX
+
+<div align="center">
+<img src="https://socialify.git.ci/ashavijit/MovieX/image?font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="MovieX" width="640" height="320" />
+</div>
+<p align="center">
+  <h1 align="center">MovieX</h1>
+</p>
 
 ## Description
 MovieX is a web based application that allows user to book tickets for newly released movies in theater. User can search for any movie using the search bar provided and according to their preference they can book tickets for the Movie.
