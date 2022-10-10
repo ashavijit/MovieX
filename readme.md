@@ -113,7 +113,7 @@ you are ready to make changes to the project
 
 **11.** Please Change the PORT Number in the ```docker-compose.yml``` file.
 
-**12.** fter installation, go to the URL: `http://localhost:3000/`.
+**12.** After installation, go to the URL: `http://localhost:3000/`.
 
 **13.** Make necessary changes and commit those changes
 
