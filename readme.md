@@ -62,7 +62,7 @@ Below are the steps to follow to contribute to this project:
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/Meetify.git
+git clone https://github.com/<your_user_name>/MovieX.git
 ```
 
 where `your_user_name` is your GitHub username.
